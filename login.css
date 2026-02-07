@@ -1,0 +1,144 @@
+.login-section{
+  background-color: rgb(246, 246, 238);
+  margin-top:0;
+  min-height:100vh;
+  position:relative;
+  padding-top:10px;
+}
+.login-welcome{
+  margin-top: 180px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  margin-bottom:20px;
+}
+.welcome-back-text{
+  margin-top:0;
+  font-size:32px;
+  font-weight:bold;
+  margin-bottom:0;
+}
+.signin-text{
+  margin-top:5px;
+  opacity:0.7;
+}
+.login-email-box{
+  margin-left:25px;
+}
+.login-email-text{
+  opacity:0.8;
+  margin-bottom:0;
+}
+.email-input-box{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  background-color: white;
+  border:1px solid gray;
+  margin-right:25px;
+  border-radius:15px ;
+  overflow: hidden;
+  margin-bottom:0;
+}
+.email-img-box{
+  width:25px;
+  margin-left: 20px;
+  margin-right:10px;
+}
+.email-img{
+  width:100%;
+  opacity:0.6;
+}
+.login-email{
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size:16px;
+  width:100%;
+  border:none;
+  font-family: 'DM Sans',sans-serif;
+  margin-bottom: 0;
+}
+.login-email:focus{
+  outline:none;
+}
+.login-email::placeholder{
+  font-size:16px;
+}
+.login-password-box{
+  margin-left:25px;
+  margin-top:15px;
+}
+.login-password-text{
+  opacity:0.8;
+  margin-bottom:0;
+  margin-top: 0;
+}
+.account-exists-message,.email-required,.password-required{
+  margin-top:0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color:rgb(240, 69, 69);
+}
+.password-input-box{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  background-color: white;
+  border:1px solid gray;
+  margin-right:25px;
+  border-radius:15px ;
+  overflow: hidden;
+}
+.lock-img-box{
+  width:25px;
+  margin-left: 20px;
+  margin-right:10px;
+}
+.lock-img{
+  width:100%;
+}
+.login-password{
+  padding-top: 10px;
+  padding-bottom: 12px;
+  font-size:16px;
+  width:100%;
+  border:none;
+  font-family: 'DM Sans',sans-serif;
+}
+.login-password:focus{
+  outline:none;
+}
+.forgot-pass-box{
+  display:flex;
+}
+.forgot-pass-btn{
+  margin-left:auto;
+  margin-right:25px;
+  margin-top: 4px;
+  font-weight: bold;
+  color:rgb(240, 69, 69);
+}
+.sign-in-button{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color:white;
+  border-radius:15px;
+  padding:15px;
+  margin-right:25px;
+  margin-left: 25px;
+  margin-top:0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.dont-have-account{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:gray;
+}
+.sign-up-button{
+  font-weight:bold;
+  color:rgb(240, 69, 69);
+  font-size:18px;
+}

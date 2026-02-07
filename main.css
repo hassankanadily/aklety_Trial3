@@ -1,0 +1,373 @@
+body{
+  margin:0;
+  font-family:'DM Sans',sans-serif;
+  padding-bottom:85px;
+  position:relative;
+}
+main{
+  background-color: rgb(246, 246, 238);
+  overflow:hidden;
+  padding:15px;
+  padding-bottom: 100px;
+}
+.success-section2{
+  background-color: white;
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:1680px;
+  top:0;
+  z-index:3;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  transform:scale(0);
+  opacity:0;
+  transition: opacity 1.5s ease,transform 1.5s ease;
+}
+.request-message-box2{
+  background-color:rgb(174, 233, 174);
+  border-radius:25px;
+  display:flex;
+  margin-right:50px;
+  margin-left:50px;
+  margin-bottom:170px;
+  flex-direction: row;
+  align-items: center;
+  padding:10px;
+  text-wrap: nowrap;
+}
+.request-success-box2{
+  width:36px;
+  margin-right:10px;
+  margin-top:6px;
+}
+.custom-box{
+  display:flex;
+  flex-direction:row;
+  background-color: rgb(240, 69, 69);
+  border-radius:15px;
+}
+.right-custom{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-left:auto;
+  width:100px;
+}
+.fork-box{
+  width:50px;
+}
+.fork-img{
+  width:100%;
+  opacity: 0.3;
+}
+.left-custom{
+  display:flex;
+  flex-direction: column;
+  margin-left:20px;
+  margin-top:10px;
+}
+.left-custom-text{
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+  margin-bottom:10px;
+}
+.left-perfect-text{
+  color:rgb(244, 227, 227);
+  margin-top:0;
+}
+.right-arrow-box{
+  width:20px;
+  margin-right:20px;
+  margin-top: 2px;;
+}
+.right-arrow-img{
+  width:100%;
+}
+.start-box{
+  display:flex;
+  flex-direction:row;
+  background-color: white;
+  border-radius:20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:20px;
+  width:fit-content;
+  height:fit-content;
+}
+.left-start-text{
+  color:rgb(236, 88, 88);
+  font-size:17px;
+  margin-left:15px;
+  margin-right:10px;
+  font-weight: bold;
+}
+.add-box{
+  display:flex;
+  flex-direction:row;
+  border:1px solid pink;
+  border-radius:15px;
+  margin-top:25px;
+  background-color: white;
+  padding:12px;
+}
+.left-add{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  
+  margin-left:10px;
+}
+.add-img-box{
+  width:35px;
+  background-color:rgb(255, 225, 225);
+  padding:10px;
+  border-radius:27px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-img{
+  width:100%;
+}
+.right-add{
+  display:flex;
+  flex-direction:column;
+  margin-left:15px;
+}
+.add-item-text{
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:0;
+}
+.submit-dish-text{
+  color:rgb(96, 95, 95);
+  margin-top: 10px;
+}
+.trending-textbox{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+.clock-box{
+  width:25px;
+  margin-left:auto;
+}
+.clock-img{
+  width:100%;
+}
+.trending-text,.main-menu-text{
+  font-size:20px;
+  font-weight:bold;
+}
+.trending-menu{
+  display:flex;
+  flex-direction:row;
+  gap:15px;
+  overflow-x: auto;
+}
+.trending-box{
+  display:flex;
+  flex-direction:column;
+  background-color: white;
+  padding:15px;
+  border-radius:15px;
+}
+.trending-pics-box{
+  width:180px;
+  border-radius:15px;
+}
+.trending-pics{
+  width:100%;
+  border-radius:15px;
+}
+.star-box{
+  width:20px;
+  margin-right:5px;
+}
+.star-img{
+  width:100%;
+}
+.trending-name{
+  font-size:18px;
+  font-weight:bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.cost-rating{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top:0;
+  height:33px;
+  margin-top: auto;
+}
+.trending-cost{
+  color:rgb(250, 88, 88);
+  font-weight:bold;
+  font-size:17px;
+}
+.right-section-cost{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  margin-left:auto;
+}
+.rating{
+  opacity:0.6;
+}
+.menu-items{
+  display:flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap:15px;
+}
+.all-box{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-left:25px;
+  padding-right:25px;
+  background-color: white;
+  border-radius:15px;
+  font-weight: bold;
+}
+.each-item{
+  font-weight: bold;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  white-space: nowrap;
+  transition:background-color 0.3s ease,color 0.3s ease;
+}
+.small-food-img-box{
+  width:25px;
+  margin-right: 5px;
+}
+.small-food-img{
+  width:100%;
+}
+.all-box:active,.each-item:active{
+  background-color:rgb(240, 69, 69); 
+  color:white;
+}
+.full-menu{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin-top:20px;
+  gap:20px;
+}
+.big-menu-items{
+  display:flex;
+  flex-direction:column;
+  width:148px;
+  background-color: white;
+  padding-left: 10px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-bottom:0;
+  border-radius:15px;
+  margin-bottom: 10px;
+}
+.menu-above-box{
+  position:relative;
+}
+.big-food-box{
+  width:140px;
+}
+.big-food-img{
+  width:100%;
+  border-radius:10px;
+}
+.like-img-box{
+  width:20px;
+  position:absolute;
+  top:8px;
+  right:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:20px;
+  padding:5px;
+  background-color: white;
+  opacity:0.7;
+}
+.like-img{
+  width:100%;
+  opacity:0.7s;
+}
+.like-img.like-clicked{
+  display:none;
+}
+.like-img2{
+  display:none;
+}
+.like-img2.like-clicked{
+  width:100%;
+  display:flex;
+}
+.menu-item-name{
+  font-size:19px;
+  font-weight:bold;
+  margin-bottom:0;
+  margin-top: 8px;
+  opacity:0.7;
+}
+.item-description{
+  opacity:0.6;
+  font-size:13px;
+  margin-bottom:10px;
+  margin-top:12px;
+}
+.bottom-nav-bar{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top:1px solid black;
+  position: fixed;
+  z-index:1000;
+  height:60px;
+}
+.nav-item-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+}
+.nav-bar-pic-box{
+  width:22px;
+  margin-bottom: 0;
+}
+.nav-bar-pics{
+  width:100%;
+}
+.nav-item-box p{
+  margin-top: 0;
+  opacity:0.7;
+}
+.nav-item-box p.clicked-nav{
+  color:red;
+}
+.nav-item-box p.unclicked-nav{
+  color:rgb(96, 95, 95);
+}
+

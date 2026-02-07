@@ -1,0 +1,105 @@
+.verification-section{
+  background-color: rgb(246, 246, 238);
+  min-height:100vh;
+  position:relative;
+  margin-top:0;
+  padding-top: 10px;
+  padding-left:20px;
+  padding-right: 20px;
+}
+.verification-text{
+  margin-top:0;
+  font-weight:bold;
+  font-size:32px;
+  margin-top:30px;
+  margin-bottom: 0;
+}
+.enter-digit-text{
+  opacity:0.7;
+  margin-top:0;
+}
+.verification-numbers{
+  display:flex;
+  flex-direction:row;
+  gap:30px;
+  align-items: center;
+  justify-content: center;
+}
+.verification-inputs{
+  width:60px;
+  height:60px;
+  border-radius:15px;
+  border:1px solid gray;
+  font-size:30px;
+  text-align:center;
+}
+.verify-button{
+  display:flex;
+  background-color: black;
+  color:white;
+  border-radius:15px;
+  padding:15px;
+  margin-top:40px;
+  align-items: center;
+  justify-content: center;
+}
+.didnt-receive-text{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:gray;
+  margin-top:30px;
+}
+.resend-button{
+  font-weight:bold;
+  font-size:18px;
+  color:rgb(240, 69, 69);
+}
+.back-arrow-verify-box{
+  width:25px;
+  margin-top:10px;
+}
+.back-arrow-verify-img{
+  width:100%;
+}
+.please-valid-text{
+  margin:0;
+  margin-top:5px;
+  color:rgb(240, 69, 69);
+  font-weight:bold;
+}
+.invalid-text{
+  margin:0;
+  margin-top:5px;
+  color:rgb(240, 69, 69);
+  font-weight:bold;
+}
+.code-number{
+  display:flex;
+  margin-top:200px;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(204, 231, 204);
+  padding:15px;
+  border-radius:15px;
+  font-size:30px;
+}
+.logged-in-message{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(169, 234, 169);
+  height: 40px;
+  top:250px;
+  right:40px;
+  left:40px;
+  border-radius:30px;
+  padding:10px;
+  position:absolute;
+  gap:10px;
+  transform: translateY(-480%);
+  opacity:0;
+  z-index:20;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}

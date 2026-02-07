@@ -1,0 +1,150 @@
+.clicked-menu-item-section{
+  background-color: rgb(246, 246, 238);
+  min-height:760px;
+  position:relative;
+  margin-top:0;
+}
+.clicked-item-pic-box{
+  margin:0;
+}
+.food-img{
+  width:100%;
+}
+.all-item-details{
+  border-radius:15px;
+  background-color: white;
+  margin:20px;
+  padding-left: 18px;
+  display:flex;
+  flex-direction: column;
+  padding-bottom:50px;
+}
+.small-name{
+  font-weight:bold;
+  font-size:22px;
+  margin-top: 20px;
+  margin-bottom:0;
+  padding:0;
+}
+.small-desc{
+  opacity:0.6;
+  margin-top:6px;
+  margin-bottom: 0;
+  font-size:13px;
+}
+.small-price{
+  color:rgb(233, 66, 66);
+  font-size:30px;
+  font-weight:bold;
+  margin-top:13px;
+  margin-bottom:0;
+}
+.rating-box{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0;
+  padding:0;
+  height:30px;
+}
+.star-and-number{
+  display:flex;
+  align-items: center;
+  flex-direction: center;
+  margin-left:5px;
+  margin-top:0;
+  height:25px;
+  font-size:14px;
+}
+.rating-word{
+  opacity:0.7;
+  font-size:14px;
+}
+.item-quantity{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.quantity-number-div{
+  margin-left:auto;
+  margin-right:20px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  gap:20px;
+}
+.plus-button{
+  background-color:rgb(233, 66, 66);
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  border:none;
+  width:35px;
+  height:35px;
+  color:white;
+  border-radius:12px;
+  font-size:25px;
+}
+.minus-button{
+  background-color:rgb(231, 219, 219);
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  border:none;
+  width:35px;
+  height:35px;
+  color:black;
+  border-radius:12px;
+  font-size:30px;
+}
+.quantity-name{
+  font-size: 18px;
+}
+.cart-img-box{
+  width:20px;
+  margin-right: 10px;
+}
+.cart-img{
+  width:100%;
+}
+.total-cost{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  border-top:1px solid gray;
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.total-and-cost{
+  display:flex;
+  flex-direction:column;
+  margin-left:10px;
+}
+.word-total{
+  margin-bottom:0;
+  margin-top:10px;
+  font-size:12px;
+  opacity:0.7;
+}
+.small-total{
+  margin-top: 5px;
+  font-weight:bold;
+  font-size:25px;
+}
+.cart-and-add{
+  margin-left:auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-right:20px;
+  background-color:rgb(233, 66, 66);
+  color:white;
+  border-radius:10px;
+  padding-left:55px;
+  padding-right:55px;
+  font-size:18px;
+  max-height:50px;
+}
